@@ -1,0 +1,14 @@
+	Passwords
+
+A password helps authenticate a user when accessing a software application.  Adherence to appropriate password management will help maintain the confidentiality, integrity, availability of the data maintained by the software application and reduce the risk of inappropriate access and use.
+Validation Questions	Yes	No	NA	Comments
+1. Does the system have functionality to allow the user to revise their password and force user account expiry?
+2. Does the system support protected storage of passwords with privileged user access?  The system should not support passwords in clear text embedded either in the application code, automated scripts, or the database?	0
+3. Does the system meet the standard password requirements? 	
+4. Are the passwords in the production environment different than those in a non-production environment?
+5. Are all vendor supplied default passwords revised prior to placing the application in a production environment?
+6. Are passwords for privileged accounts different than passwords for non-privileged accounts?	
+
+
+
+
