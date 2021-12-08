@@ -1,0 +1,26 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman git 
+branch postman 
+- Jmeter git branch jmeter
+- CheckLists git branch checklists
+- Bug Reports git branch bug_reports
+- SQL git branch sql
+- Charles git branch charles
+- Mobile testing git branch mobile_testing
+
+2. Запушить все ветки на внешний репозиторий 
+ git push -u origin postman
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+4. Запушить структуру багрепорта на внешний репозиторий
+git add . git commit -m "added bug_report1234" 
+5. Вмержить ветку Bug Reports в Main
+git push -u origin bug_reports
+6. Запушить main на внешний репозиторий.
+git push -u origin bug_reports
+7. В ветке CheckLists набросать структуру чек листа.
+8. Запушить структуру на внешний репозиторий
+git add . git commit -m "add checklists_1.txt"
+git push -u origin checklists
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main git pull
